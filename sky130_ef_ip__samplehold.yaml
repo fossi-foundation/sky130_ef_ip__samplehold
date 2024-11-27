@@ -1,0 +1,23 @@
+---
+info:
+  name: sky130_ef_ip__samplehold
+  description: Analog 3.3V sample and hold circuit, with buffered output
+  repo: https://github.com/efabless/sky130_ef_ip__samplehold
+  owner: Tim Edwards
+  license: APACHE 2.0
+  author: Tim Edwards
+  email: tim@efabless.com
+  version: v1.0.0
+  date: 27-11-2024
+  category: analog
+  tags:
+  - sample-and-hold
+  type: hard
+  status: verified
+  cell_count:
+  width: '0.0'
+  height: '0.0'
+  technology: sky130A
+  clock_freq_mhz:
+  digital_supply_voltage: n/a
+  analog_supply_voltage: n/a
