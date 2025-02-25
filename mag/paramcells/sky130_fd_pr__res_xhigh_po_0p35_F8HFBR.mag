@@ -1,0 +1,246 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740434940
+<< pwell >>
+rect -1114 -1748 1114 1748
+<< psubdiff >>
+rect -1078 1678 -982 1712
+rect 982 1678 1078 1712
+rect -1078 1616 -1044 1678
+rect 1044 1616 1078 1678
+rect -1078 -1678 -1044 -1616
+rect 1044 -1678 1078 -1616
+rect -1078 -1712 -982 -1678
+rect 982 -1712 1078 -1678
+<< psubdiffcont >>
+rect -982 1678 982 1712
+rect -1078 -1616 -1044 1616
+rect 1044 -1616 1078 1616
+rect -982 -1712 982 -1678
+<< xpolycontact >>
+rect -948 1150 -878 1582
+rect -948 -1582 -878 -1150
+rect -782 1150 -712 1582
+rect -782 -1582 -712 -1150
+rect -616 1150 -546 1582
+rect -616 -1582 -546 -1150
+rect -450 1150 -380 1582
+rect -450 -1582 -380 -1150
+rect -284 1150 -214 1582
+rect -284 -1582 -214 -1150
+rect -118 1150 -48 1582
+rect -118 -1582 -48 -1150
+rect 48 1150 118 1582
+rect 48 -1582 118 -1150
+rect 214 1150 284 1582
+rect 214 -1582 284 -1150
+rect 380 1150 450 1582
+rect 380 -1582 450 -1150
+rect 546 1150 616 1582
+rect 546 -1582 616 -1150
+rect 712 1150 782 1582
+rect 712 -1582 782 -1150
+rect 878 1150 948 1582
+rect 878 -1582 948 -1150
+<< xpolyres >>
+rect -948 -1150 -878 1150
+rect -782 -1150 -712 1150
+rect -616 -1150 -546 1150
+rect -450 -1150 -380 1150
+rect -284 -1150 -214 1150
+rect -118 -1150 -48 1150
+rect 48 -1150 118 1150
+rect 214 -1150 284 1150
+rect 380 -1150 450 1150
+rect 546 -1150 616 1150
+rect 712 -1150 782 1150
+rect 878 -1150 948 1150
+<< locali >>
+rect -1078 1678 -982 1712
+rect 982 1678 1078 1712
+rect -1078 1616 -1044 1678
+rect 1044 1616 1078 1678
+rect -1078 -1678 -1044 -1616
+rect 1044 -1678 1078 -1616
+rect -1078 -1712 -982 -1678
+rect 982 -1712 1078 -1678
+<< viali >>
+rect -932 1167 -894 1564
+rect -766 1167 -728 1564
+rect -600 1167 -562 1564
+rect -434 1167 -396 1564
+rect -268 1167 -230 1564
+rect -102 1167 -64 1564
+rect 64 1167 102 1564
+rect 230 1167 268 1564
+rect 396 1167 434 1564
+rect 562 1167 600 1564
+rect 728 1167 766 1564
+rect 894 1167 932 1564
+rect -932 -1564 -894 -1167
+rect -766 -1564 -728 -1167
+rect -600 -1564 -562 -1167
+rect -434 -1564 -396 -1167
+rect -268 -1564 -230 -1167
+rect -102 -1564 -64 -1167
+rect 64 -1564 102 -1167
+rect 230 -1564 268 -1167
+rect 396 -1564 434 -1167
+rect 562 -1564 600 -1167
+rect 728 -1564 766 -1167
+rect 894 -1564 932 -1167
+<< metal1 >>
+rect -938 1564 -888 1576
+rect -938 1167 -932 1564
+rect -894 1167 -888 1564
+rect -938 1155 -888 1167
+rect -772 1564 -722 1576
+rect -772 1167 -766 1564
+rect -728 1167 -722 1564
+rect -772 1155 -722 1167
+rect -606 1564 -556 1576
+rect -606 1167 -600 1564
+rect -562 1167 -556 1564
+rect -606 1155 -556 1167
+rect -440 1564 -390 1576
+rect -440 1167 -434 1564
+rect -396 1167 -390 1564
+rect -440 1155 -390 1167
+rect -274 1564 -224 1576
+rect -274 1167 -268 1564
+rect -230 1167 -224 1564
+rect -274 1155 -224 1167
+rect -108 1564 -58 1576
+rect -108 1167 -102 1564
+rect -64 1167 -58 1564
+rect -108 1155 -58 1167
+rect 58 1564 108 1576
+rect 58 1167 64 1564
+rect 102 1167 108 1564
+rect 58 1155 108 1167
+rect 224 1564 274 1576
+rect 224 1167 230 1564
+rect 268 1167 274 1564
+rect 224 1155 274 1167
+rect 390 1564 440 1576
+rect 390 1167 396 1564
+rect 434 1167 440 1564
+rect 390 1155 440 1167
+rect 556 1564 606 1576
+rect 556 1167 562 1564
+rect 600 1167 606 1564
+rect 556 1155 606 1167
+rect 722 1564 772 1576
+rect 722 1167 728 1564
+rect 766 1167 772 1564
+rect 722 1155 772 1167
+rect 888 1564 938 1576
+rect 888 1167 894 1564
+rect 932 1167 938 1564
+rect 888 1155 938 1167
+rect -938 -1167 -888 -1155
+rect -938 -1564 -932 -1167
+rect -894 -1564 -888 -1167
+rect -938 -1576 -888 -1564
+rect -772 -1167 -722 -1155
+rect -772 -1564 -766 -1167
+rect -728 -1564 -722 -1167
+rect -772 -1576 -722 -1564
+rect -606 -1167 -556 -1155
+rect -606 -1564 -600 -1167
+rect -562 -1564 -556 -1167
+rect -606 -1576 -556 -1564
+rect -440 -1167 -390 -1155
+rect -440 -1564 -434 -1167
+rect -396 -1564 -390 -1167
+rect -440 -1576 -390 -1564
+rect -274 -1167 -224 -1155
+rect -274 -1564 -268 -1167
+rect -230 -1564 -224 -1167
+rect -274 -1576 -224 -1564
+rect -108 -1167 -58 -1155
+rect -108 -1564 -102 -1167
+rect -64 -1564 -58 -1167
+rect -108 -1576 -58 -1564
+rect 58 -1167 108 -1155
+rect 58 -1564 64 -1167
+rect 102 -1564 108 -1167
+rect 58 -1576 108 -1564
+rect 224 -1167 274 -1155
+rect 224 -1564 230 -1167
+rect 268 -1564 274 -1167
+rect 224 -1576 274 -1564
+rect 390 -1167 440 -1155
+rect 390 -1564 396 -1167
+rect 434 -1564 440 -1167
+rect 390 -1576 440 -1564
+rect 556 -1167 606 -1155
+rect 556 -1564 562 -1167
+rect 600 -1564 606 -1167
+rect 556 -1576 606 -1564
+rect 722 -1167 772 -1155
+rect 722 -1564 728 -1167
+rect 766 -1564 772 -1167
+rect 722 -1576 772 -1564
+rect 888 -1167 938 -1155
+rect 888 -1564 894 -1167
+rect 932 -1564 938 -1167
+rect 888 -1576 938 -1564
+<< labels >>
+rlabel psubdiffcont 0 -1695 0 -1695 0 B
+port 1 nsew
+rlabel xpolycontact -913 1547 -913 1547 0 R1_0
+port 2 nsew
+rlabel xpolycontact -913 -1547 -913 -1547 0 R2_0
+port 3 nsew
+rlabel xpolycontact -747 1547 -747 1547 0 R1_1
+port 4 nsew
+rlabel xpolycontact -747 -1547 -747 -1547 0 R2_1
+port 5 nsew
+rlabel xpolycontact -581 1547 -581 1547 0 R1_2
+port 6 nsew
+rlabel xpolycontact -581 -1547 -581 -1547 0 R2_2
+port 7 nsew
+rlabel xpolycontact -415 1547 -415 1547 0 R1_3
+port 8 nsew
+rlabel xpolycontact -415 -1547 -415 -1547 0 R2_3
+port 9 nsew
+rlabel xpolycontact -249 1547 -249 1547 0 R1_4
+port 10 nsew
+rlabel xpolycontact -249 -1547 -249 -1547 0 R2_4
+port 11 nsew
+rlabel xpolycontact -83 1547 -83 1547 0 R1_5
+port 12 nsew
+rlabel xpolycontact -83 -1547 -83 -1547 0 R2_5
+port 13 nsew
+rlabel xpolycontact 83 1547 83 1547 0 R1_6
+port 14 nsew
+rlabel xpolycontact 83 -1547 83 -1547 0 R2_6
+port 15 nsew
+rlabel xpolycontact 249 1547 249 1547 0 R1_7
+port 16 nsew
+rlabel xpolycontact 249 -1547 249 -1547 0 R2_7
+port 17 nsew
+rlabel xpolycontact 415 1547 415 1547 0 R1_8
+port 18 nsew
+rlabel xpolycontact 415 -1547 415 -1547 0 R2_8
+port 19 nsew
+rlabel xpolycontact 581 1547 581 1547 0 R1_9
+port 20 nsew
+rlabel xpolycontact 581 -1547 581 -1547 0 R2_9
+port 21 nsew
+rlabel xpolycontact 747 1547 747 1547 0 R1_10
+port 22 nsew
+rlabel xpolycontact 747 -1547 747 -1547 0 R2_10
+port 23 nsew
+rlabel xpolycontact 913 1547 913 1547 0 R1_11
+port 24 nsew
+rlabel xpolycontact 913 -1547 913 -1547 0 R2_11
+port 25 nsew
+<< properties >>
+string FIXED_BBOX -1061 -1695 1061 1695
+string gencell sky130_fd_pr__res_xhigh_po_0p35
+string library sky130
+string parameters w 0.350 l 11.66 m 1 nx 12 wmin 0.350 lmin 0.50 class resistor rho 2000 val 67.704k dummy 0 dw 0.0 term 188.2 sterm 0.0 caplen 0 wmax 0.350 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0 doports 1
+<< end >>

@@ -1,0 +1,99 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO sky130_ef_ip__samplehold
+  CLASS BLOCK ;
+  FOREIGN sky130_ef_ip__samplehold ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 79.225 BY 56.275 ;
+  PIN out
+    ANTENNAGATEAREA 2.400000 ;
+    ANTENNADIFFAREA 48.430000 ;
+    PORT
+      LAYER met2 ;
+        RECT 37.890 50.670 38.890 56.245 ;
+    END
+  END out
+  PIN vdd
+    ANTENNADIFFAREA 357.060181 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.665 55.230 3.470 56.275 ;
+    END
+  END vdd
+  PIN hold
+    ANTENNAGATEAREA 0.612000 ;
+    ANTENNADIFFAREA 0.360000 ;
+    PORT
+      LAYER met1 ;
+        RECT 0.260 32.695 1.260 33.695 ;
+    END
+  END hold
+  PIN in
+    ANTENNAGATEAREA 2.602500 ;
+    ANTENNADIFFAREA 0.202500 ;
+    PORT
+      LAYER met2 ;
+        RECT 38.305 0.595 39.305 6.000 ;
+    END
+  END in
+  PIN vss
+    ANTENNADIFFAREA 99.359795 ;
+    PORT
+      LAYER met3 ;
+        RECT 8.510 54.805 11.280 56.265 ;
+    END
+  END vss
+  PIN dvdd
+    ANTENNADIFFAREA 1.965600 ;
+    PORT
+      LAYER met3 ;
+        RECT 6.315 55.240 7.915 56.250 ;
+    END
+  END dvdd
+  PIN dvss
+    ANTENNADIFFAREA 70.626900 ;
+    PORT
+      LAYER met3 ;
+        RECT 4.065 55.230 5.665 56.270 ;
+    END
+  END dvss
+  PIN ena
+    ANTENNAGATEAREA 0.612000 ;
+    ANTENNADIFFAREA 0.360000 ;
+    PORT
+      LAYER met1 ;
+        RECT 0.260 45.275 1.245 46.275 ;
+    END
+  END ena
+  OBS
+      LAYER nwell ;
+        RECT 0.000 1.750 78.385 51.225 ;
+      LAYER li1 ;
+        RECT 0.430 2.180 79.050 51.840 ;
+      LAYER met1 ;
+        RECT 0.085 46.555 79.200 56.275 ;
+        RECT 1.525 44.995 79.200 46.555 ;
+        RECT 0.085 33.975 79.200 44.995 ;
+        RECT 1.540 32.415 79.200 33.975 ;
+        RECT 0.085 0.765 79.200 32.415 ;
+      LAYER met2 ;
+        RECT 0.690 50.390 37.610 56.225 ;
+        RECT 39.170 50.390 79.185 56.225 ;
+        RECT 0.690 6.280 79.185 50.390 ;
+        RECT 0.690 0.680 38.025 6.280 ;
+        RECT 39.585 0.680 79.185 6.280 ;
+      LAYER met3 ;
+        RECT 6.065 54.830 8.110 54.840 ;
+        RECT 0.690 54.405 8.110 54.830 ;
+        RECT 11.680 54.405 79.185 56.265 ;
+        RECT 0.690 0.000 79.185 54.405 ;
+      LAYER met4 ;
+        RECT 4.065 0.000 79.225 56.230 ;
+      LAYER met5 ;
+        RECT 14.065 0.000 70.955 55.890 ;
+  END
+END sky130_ef_ip__samplehold
+END LIBRARY
+
