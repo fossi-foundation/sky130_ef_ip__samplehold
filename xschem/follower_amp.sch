@@ -12,7 +12,7 @@ T {output stage} 3210 -1240 0 0 0.8 0.8 {}
 T {N-stage 2} 2690 -950 0 0 0.8 0.8 {}
 T {Rail-to-rail source follower amplifier} 2410 -1480 0 0 0.8 0.8 {}
 T {Uses native-Vt devices on secondary N-stage to achieve full rail-to-rail operation} 2320 -1380 0 0 0.5 0.5 {}
-T {13uA} 1300 -740 0 0 0.6 0.6 {}
+T {3.25uA} 1300 -740 0 0 0.6 0.6 {}
 T {3.25uA} 1490 -740 0 0 0.6 0.6 {}
 N 2010 -660 2010 -630 {
 lab=vcomn1}
@@ -354,8 +354,8 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 1360 -830 2 0 {name=M10
 L=0.5
-W=4
-nf=4
+W=1
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -679,7 +679,7 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1340 -1010 0 0 {name=R2
-L=35
+L=140
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
