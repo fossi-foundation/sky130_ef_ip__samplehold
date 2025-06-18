@@ -1,4 +1,4 @@
-** sch_path: /home/tim/gits/sky130_ef_ip__samplehold/xschem/sky130_ef_ip__samplehold.sch
+** sch_path: /home/tim/gits/chipalooza_projects_2/dependencies/sky130_ef_ip__samplehold/xschem/sky130_ef_ip__samplehold.sch
 .subckt sky130_ef_ip__samplehold dvdd dvss hold vdd out in ena vss
 *.PININFO vdd:I hold:I in:I vss:I out:O dvdd:I dvss:I ena:I
 XC1 holdval vss sky130_fd_pr__cap_mim_m3_1 W=5 L=5 m=48
@@ -13,8 +13,8 @@ XXD2 dvss ena sky130_fd_pr__diode_pw2nd_05v5 area=3.6e11 perim=2.4e6
 .ends
 
 * expanding   symbol:  balanced_switch.sym # of pins=5
-** sym_path: /home/tim/gits/sky130_ef_ip__samplehold/xschem/balanced_switch.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__samplehold/xschem/balanced_switch.sch
+** sym_path: /home/tim/gits/chipalooza_projects_2/dependencies/sky130_ef_ip__samplehold/xschem/balanced_switch.sym
+** sch_path: /home/tim/gits/chipalooza_projects_2/dependencies/sky130_ef_ip__samplehold/xschem/balanced_switch.sch
 .subckt balanced_switch hold vss out in vdd
 *.PININFO in:I out:O vss:I vdd:I hold:I
 XM1 in holdb out vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=2 m=1
@@ -27,13 +27,13 @@ XM7 holdb hold vdd vdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=5 nf=1 m=1
 XM8 holdb hold vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
 XM9 holdp holdb vdd vdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=5 nf=1 m=1
 XM10 holdp holdb vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
-XXD1 vss hold sky130_fd_pr__diode_pw2nd_05v5 area=2.025e11 perim=1.8e6
+XXD1 vss hold sky130_fd_pr__diode_pw2nd_11v0 area=2.025e11 perim=1.8e6
 .ends
 
 
 * expanding   symbol:  follower_amp.sym # of pins=6
-** sym_path: /home/tim/gits/sky130_ef_ip__samplehold/xschem/follower_amp.sym
-** sch_path: /home/tim/gits/sky130_ef_ip__samplehold/xschem/follower_amp.sch
+** sym_path: /home/tim/gits/chipalooza_projects_2/dependencies/sky130_ef_ip__samplehold/xschem/follower_amp.sym
+** sch_path: /home/tim/gits/chipalooza_projects_2/dependencies/sky130_ef_ip__samplehold/xschem/follower_amp.sch
 .subckt follower_amp vdd out ena vss in vsub
 *.PININFO in:I vdd:I vss:I out:O ena:I vsub:I
 XM4 pdrv1 net1 vdd vdd sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=2 m=1

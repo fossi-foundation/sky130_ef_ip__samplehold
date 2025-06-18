@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1747701052
+timestamp 1750254930
 << locali >>
 rect 813 10343 1130 10366
 rect 813 10186 836 10343
@@ -488,15 +488,15 @@ timestamp 1718240546
 transform 1 0 814 0 1 10008
 box -198 -198 198 198
 use sky130_fd_sc_hvl__lsbuflv2hv_1  sky130_fd_sc_hvl__lsbuflv2hv_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1746753973
+timestamp 1750210935
 transform 1 0 338 0 -1 9537
 box -66 -43 2178 1671
 use sky130_fd_sc_hvl__lsbuflv2hv_1  sky130_fd_sc_hvl__lsbuflv2hv_1_1
-timestamp 1746753973
+timestamp 1750210935
 transform 1 0 338 0 1 6281
 box -66 -43 2178 1671
 use balanced_switch  x1
-timestamp 1747700057
+timestamp 1750254930
 transform -1 0 2543 0 -1 2480
 box 264 -3133 2570 2130
 use follower_amp  x2

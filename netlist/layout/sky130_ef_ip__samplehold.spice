@@ -27,8 +27,8 @@ X1 a_n29_n464# a_n129_n561# a_n187_n464# w_n387_n762# sky130_fd_pr__pfet_g5v0d10
 X0 a_50_n200# a_n50_n288# a_n108_n200# a_n242_n422# sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 .ends
 
-.subckt sky130_fd_pr__diode_pw2nd_05v5_FT76RJ a_n147_n147# a_n45_n45#
-X0 a_n147_n147# a_n45_n45# sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
+.subckt sky130_fd_pr__diode_pw2nd_11v0_QK8PWZ D2 D1
+X0 D2 D1 sky130_fd_pr__diode_pw2nd_11v0 perim=1.8e+06 area=2.025e+11
 .ends
 
 .subckt balanced_switch hold out in vdd vss
@@ -41,7 +41,7 @@ XXM3 in vss in holdp sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
 XXM5 out vss out holdp sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
 XXM7 hold hold vdd holdb holdb vdd sky130_fd_pr__pfet_g5v0d10v5_GTJ6Y6
 XXM8 holdb vss vss hold sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
-XXD1 vss hold sky130_fd_pr__diode_pw2nd_05v5_FT76RJ
+XXD1 vss hold sky130_fd_pr__diode_pw2nd_11v0_QK8PWZ
 XXM10 holdp vss vss holdb sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
 .ends
 
@@ -118,6 +118,10 @@ X11 R1_1 R2_1 B sky130_fd_pr__res_xhigh_po_0p35 l=11.66
 + a_129_n100# a_29_n188# a_n129_n188#
 X0 a_129_n100# a_29_n188# a_n29_n100# a_n321_n322# sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
 X1 a_n29_n100# a_n129_n188# a_n187_n100# a_n321_n322# sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__diode_pw2nd_05v5_FT76RJ a_n147_n147# a_n45_n45#
+X0 a_n147_n147# a_n45_n45# sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
 .ends
 
 .subckt sky130_fd_pr__nfet_g5v0d10v5_XJGQ2Y a_n321_n322# a_n29_n100# a_n187_n100#

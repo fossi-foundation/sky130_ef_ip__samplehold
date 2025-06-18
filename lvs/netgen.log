@@ -5,9 +5,11 @@ Call to undefined subcircuit sky130_fd_pr__pfet_g5v0d10v5
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_g5v0d10v5
 Creating placeholder cell definition.
-Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_05v5
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_11v0
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__res_xhigh_po_0p35
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_05v5
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_05v0_nvt
 Creating placeholder cell definition.
@@ -205,6 +207,8 @@ No property value found for device sky130_fd_pr__diode_pw2nd_05v5
 No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
 No property value found for device sky130_fd_pr__diode_pw2nd_11v0
 No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
+No property value found for device sky130_fd_pr__diode_pw2nd_11v0
+No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
 No property area found for device sky130_fd_pr__cap_mim_m3_1
 No property value found for device sky130_fd_pr__cap_mim_m3_1
 No property mult found for device sky130_fd_pr__cap_mim_m3_1
@@ -229,8 +233,9 @@ Comparison output logged to file sky130_ef_ip__samplehold_comp.out
 Logging to file "sky130_ef_ip__samplehold_comp.out" enabled
 Circuit sky130_fd_pr__pfet_g5v0d10v5 contains no devices.
 Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
-Circuit sky130_fd_pr__diode_pw2nd_05v5 contains no devices.
+Circuit sky130_fd_pr__diode_pw2nd_11v0 contains no devices.
 Circuit sky130_fd_pr__res_xhigh_po_0p35 contains no devices.
+Circuit sky130_fd_pr__diode_pw2nd_05v5 contains no devices.
 Circuit sky130_fd_pr__nfet_05v0_nvt contains no devices.
 Circuit sky130_fd_pr__cap_mim_m3_1 contains no devices.
 Circuit sky130_fd_pr__cap_mim_m3_2 contains no devices.
@@ -239,14 +244,14 @@ Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
 
 Contents of circuit 1:  Circuit: 'balanced_switch'
 Circuit balanced_switch contains 15 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   6
-  Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   8
 Circuit contains 7 nets.
 Contents of circuit 2:  Circuit: 'balanced_switch'
 Circuit balanced_switch contains 11 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   5
-  Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   5
 Circuit contains 7 nets.
 
@@ -255,14 +260,14 @@ New circuit summary:
 
 Contents of circuit 1:  Circuit: 'balanced_switch'
 Circuit balanced_switch contains 11 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   5
-  Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   5
 Circuit contains 7 nets.
 Contents of circuit 2:  Circuit: 'balanced_switch'
 Circuit balanced_switch contains 11 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   5
-  Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:   5
 Circuit contains 7 nets.
 
